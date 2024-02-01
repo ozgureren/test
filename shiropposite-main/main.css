@@ -1,0 +1,85 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+display: flex;
+flex-direction: row;
+justify-content: center;
+background-image: url(/image/Artboard\ 1.png);
+background-color: rgb(235, 166, 77);
+
+
+}
+
+header img{
+    width: 200px;
+    margin: 20px;
+    padding: 5px;
+}
+
+main.ust {
+
+    height: 50px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+main.ust a{
+   
+   
+    font-family: 'Lobster', sans-serif;
+
+    margin: auto;
+    padding: auto;
+    text-decoration: none;
+    color: black;
+
+}
+
+main.orta {
+
+    display: flex;
+    justify-content: center;
+}
+
+.slider {
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide-container {
+    width: 5000px; /* 1000px * 5 images */
+    position: absolute;
+    transition: all 1s ease-in-out;
+}
+
+.slide {
+    float: left;
+}
+
+.slide img {
+    width: 1000px;
+    height: 500px;
+}
+
+
+div.hero{
+    position: relative;
+    opacity: 0.6;
+    
+}
+
+.bg-class{
+    position:absolute;
+    min-width: 100%;
+    min-height: 100%;
+}
